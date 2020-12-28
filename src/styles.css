@@ -1,0 +1,44 @@
+body {
+  font-family: indie flower;
+  text-align: center;
+}
+
+h1 {
+  width: 500px;
+  margin: 0 auto;
+  background: #577cb0;
+  text-align: center;
+}
+
+section {
+  background-image: url(src/images/snowy.jpg);
+  background-repeat: none;
+  background-size: cover;
+  background-attachment: fixed;
+}
+
+.btn {
+  background-color: cornflowerblue;
+}
+
+.card {
+  background: transparent;
+  box-shadow: 0 2px 5px #504241;
+  display: block;
+  padding: 10px 20px;
+  margin: 0 auto;
+  text-align: center;
+}
+
+.card-title {
+  font-weight: bolder;
+}
+
+.card-text {
+  font-weight: bolder;
+}
+
+.weather-icon {
+  font-size: 38px;
+  margin-bottom: 8px;
+}

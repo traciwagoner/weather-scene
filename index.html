@@ -1,0 +1,118 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <link rel="stylesheet" href="src/styles.css" />
+    <link
+      rel="stylesheet"
+      href="https://stackpath.bootstrapcdn.com/bootstrap/4.5.2/css/bootstrap.min.css"
+      integrity="sha384-JcKb8q3iqJ61gNV9KGb8thSsNjpSL0n8PARn9HuZOnIxN0hoP+VmmDGMN5t9UJ0Z"
+      crossorigin="anonymous"
+    />
+    <script src="https://unpkg.com/axios/dist/axios.min.js"></script>  
+
+    <script
+      src="https://kit.fontawesome.com/d320753b25.js"
+      crossorigin="anonymous"
+    ></script>
+    <link href="https://fonts.googleapis.com/css2?family=Indie+Flower&display=swap" rel="stylesheet">
+
+
+    <title>Weather Scene</title>
+  </head>
+  <body>
+    <div class="container">
+      <h1>Weather Scene</h1> 
+      <br />
+      <section>
+      <form id="city-form">
+        <input type="search" id="cityName" placeholder="City Name" autocomplete="off" />
+        <button type="submit" value="Search">Search</button>
+        <span class="msg"></span>
+      </form>
+      <br>
+      <div class="row justify-content-center">
+      <div class="card" style="width: 19rem;">  
+        <div class="card-body">
+          <i class="fas fa-sun weather-icon"></i>
+          <h4 class="card-title">Current Boise Weather</h4>
+          <p class="card-text current-date"> 
+          </p>
+          <p class="card-text"><span class="current-temp">65</span>°F 
+            Sunny and beautiful
+          </p>
+          <a href="#" class="btn btn-primary">Details</a>
+        </div>
+      </div>
+      </div>
+     <br>
+     <div class="row justify-content-center">
+     <div class="card" style="width: 19rem;">  
+      <div class="card-body">
+        <h5 class="card-title">Monday Forcast</h5>
+        <p class="card-text">High of 64°F with a slight chance of rain
+        </p>
+        <a href="#" class="btn btn-primary">Details</a>
+      </div>
+    </div>
+     </div>
+    <br>
+    <div class="row justify-content-center">
+    <div class="card" style="width: 19rem;">  
+      <div class="card-body">
+        <h5 class="card-title">Tuesday Forcast</h5>
+        <p class="card-text">High of 64°F 
+          Sunny and breezy
+        </p>
+        <a href="#" class="btn btn-primary">Details</a>
+      </div>
+    </div>
+  </div>
+    <br>
+    <div class="row justify-content-center">
+    <div class="card" style="width: 19rem;">  
+      <div class="card-body">
+        <h5 class="card-title">Wednesday Forcast</h5>
+        <p class="card-text">High of 59°F 
+          with scattered showers throughout the day
+        </p>
+        <a href="#" class="btn btn-primary">Details</a>
+      </div>
+    </div>
+  </div>
+    <br>
+    <div class="row justify-content-center">
+    <div class="card" style="width: 19rem;">  
+      <div class="card-body">
+        <h5 class="card-title">Thursday Forcast</h5>
+        <p class="card-text">High of 55°F 
+          with snow in the late afternoon
+        </p>
+        <a href="#" class="btn btn-primary">Details</a>
+      </div>
+    </div>
+  </div>
+    <br>
+    <div class="row justify-content-center">
+    <div class="card" style="width: 19rem;">  
+      <div class="card-body">
+        <h5 class="card-title">Friday Forcast</h5>
+        <p class="card-text">High of 48°F 
+          with snow falling all day
+        </p>
+        <a href="#" class="btn btn-primary">Details</a>
+      </div>
+    </div>
+    
+  </div>
+  <br>
+  <br>
+      </div>
+      
+    </section>
+    
+    </div>
+    <script src="src/index.js"></script>
+  </body>
+</html>
