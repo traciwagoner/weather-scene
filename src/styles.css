@@ -42,3 +42,7 @@ section {
   font-size: 38px;
   margin-bottom: 8px;
 }
+
+.footer {
+  text-align: left;
+}
