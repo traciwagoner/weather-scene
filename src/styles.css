@@ -11,7 +11,7 @@ h1 {
 }
 
 section {
-  background-image: url(images/snowy.jpg);
+  background-image: url(images/snowy_b&w.jpg);
   background-repeat: none;
   background-size: cover;
   background-attachment: fixed;
@@ -44,5 +44,6 @@ section {
 }
 
 .footer {
-  text-align: left;
+  text-align: center;
+  font-weight: bold;
 }
